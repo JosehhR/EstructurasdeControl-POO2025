@@ -58,6 +58,41 @@ def ej7():
     print(f"la division de los dos numeros es: {1234/532}")
     return
 
+#8. Ejercicio: Escribir un programa en Python que imprima por pantalla los números del 1 al 3.
+
+def ej8():
+    crearSeparacion("8. Ejercicio: Escribir un programa en Python que imprima por pantalla los números del 1 al 3.")
+    for i in range (1,4):
+        print (f"{i}\n")
+
+#9. Ejercicio: Escribir un programa en Python que imprima por pantalla los números del 1 al 9. 
+
+def ej9():
+    crearSeparacion("9. Ejercicio: Escribir un programa en Python que imprima por pantalla los números del 1 al 9.")
+    for i in range (1, 10):
+        print (f"{i}\n")
+
+#10. Ejercicio: Escribir un programa en Python que imprima por pantalla los números del 1 al 10.000. Conveniente usar bucles.
+
+def ej10():
+    crearSeparacion("10. Ejercicio: Escribir un programa en Python que imprima por pantalla los números del 1 al 10.000. Conveniente usar bucles.")
+    for i in range (1, 99997, 5):
+        print (f"{i} {i+1} {i+2} {i+3} {i+4}")
+
+#11. Ejercicio: Escribir un programa en Python que imprima por pantalla los números del 5 al 10.
+
+def ej11():
+    crearSeparacion("10. Ejercicio: Escribir un programa en Python que imprima por pantalla los números del 1 al 10.000.")
+    for i in range (5, 11, 1):
+        print (f"{i}")
+
+#12. Ejercicio: Escribir un programa en Python que imprima por pantalla los números del 5 al 15.
+
+def ej12():
+    crearSeparacion("10. Ejercicio: Escribir un programa en Python que imprima por pantalla los números del 1 al 10.000.")
+    for i in range (5, 11, 1):
+        print (f"{i}")
+
 def main():
     ej1()
     ej2()
@@ -66,6 +101,10 @@ def main():
     ej5()
     ej6()
     ej7()
+    ej8()
+    ej9()
+    ej10()
+    ej11()
 
 if __name__ == "__main__":
     main()
