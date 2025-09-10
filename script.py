@@ -82,16 +82,51 @@ def ej10():
 #11. Ejercicio: Escribir un programa en Python que imprima por pantalla los números del 5 al 10.
 
 def ej11():
-    crearSeparacion("10. Ejercicio: Escribir un programa en Python que imprima por pantalla los números del 1 al 10.000.")
+    crearSeparacion("11. Ejercicio: Escribir un programa en Python que imprima por pantalla los números del 5 al 10.")
     for i in range (5, 11, 1):
         print (f"{i}")
 
 #12. Ejercicio: Escribir un programa en Python que imprima por pantalla los números del 5 al 15.
 
 def ej12():
-    crearSeparacion("10. Ejercicio: Escribir un programa en Python que imprima por pantalla los números del 1 al 10.000.")
-    for i in range (5, 11, 1):
+    crearSeparacion("12. Ejercicio: Escribir un programa en Python que imprima por pantalla los números del 5 al 15.")
+    for i in range (5, 16, 1):
         print (f"{i}")
+
+# 13. Imprimir los números del 5 al 15000 usando bucles.
+
+def ej13():
+    crearSeparacion("13. Imprimir los números del 5 al 15000 usando bucles.")
+    for i in range (1, 14997, 5):
+        print (f"{i} {i+1} {i+2} {i+3} {i+4}")
+    return
+
+# 14. Imprimir 200 veces la palabra “hola”, apareciendo solo una vez en el código fuente.
+
+def ej14():
+    crearSeparacion("14. Imprimir 200 veces la palabra “hola”, apareciendo solo una vez en el código fuente.")
+    for i in range (0,200):
+        print(f"{i+1}. Hola")
+    return
+
+# 15. Imprimir los cuadrados de los 30 primeros números naturales.
+
+def ej15():
+    crearSeparacion("15. Imprimir los cuadrados de los 30 primeros números naturales.")
+    for i in range (1,31):
+        print(f"{i}^2 = {i*i}")
+    return
+
+# 16. Multiplicar los 20 primeros números naturales (factorial de 20).
+
+def ej16():
+    crearSeparacion("16. Multiplicar los 20 primeros números naturales (factorial de 20).")
+    r=1
+    for i in range (1, 21):
+        r=r*i
+    print(f"El factorial de 20 es: {r}")
+    return
+
 
 def main():
     ej1()
@@ -105,6 +140,11 @@ def main():
     ej9()
     ej10()
     ej11()
+    ej12()
+    ej13()
+    ej14()
+    ej15()
+    ej16()
 
 if __name__ == "__main__":
     main()
